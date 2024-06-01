@@ -1,0 +1,53 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{url}
+
+\begin{document}
+
+\title{Análisis Ético y Técnico de la IA en Diseño de UI/UX: Un Estudio Basado en 'Coded Bias' y Casos Reales}
+
+\author{\IEEEauthorblockN{Oscar Julian Ramirez Contreras}
+\IEEEauthorblockA{Konrad Lorenz}
+}
+
+\maketitle
+
+\begin{abstract}
+Este artículo analiza las implicaciones éticas y técnicas de la IA en el diseño de interfaces de usuario (UI/UX) a través de la película "Coded Bias" y contrasta estos temas con un caso real de aplicación de IA en UI/UX. Se exploran las similitudes y diferencias en los componentes técnicos y éticos, y se discuten propuestas de soluciones o mejoras para los diseñadores de UI/UX.
+\end{abstract}
+
+\section{Introducción}
+La inteligencia artificial (IA) está transformando el diseño de interfaces de usuario (UI/UX), ofreciendo nuevas oportunidades y desafíos. La película "Coded Bias" destaca los sesgos inherentes en los algoritmos de IA, subrayando la importancia de abordar estos problemas para garantizar un diseño ético y justo. Este artículo contrasta los temas de la película con un caso real de implementación de IA en UI/UX, analizando las implicaciones éticas y técnicas en ambos contextos.
+
+\section{Desarrollo}
+
+\subsection{Análisis de "Coded Bias"}
+"Coded Bias" examina cómo los algoritmos de IA, especialmente en reconocimiento facial, pueden perpetuar y amplificar los sesgos existentes en la sociedad. La película destaca varios ejemplos donde la IA ha fallado al ser aplicada sin una consideración adecuada de la diversidad y la equidad, lo que lleva a consecuencias perjudiciales para ciertos grupos demográficos.
+
+\subsection{Caso Real: Reconocimiento Facial en Redes Sociales}
+Un ejemplo notable de implementación de IA en UI/UX es el uso de algoritmos de reconocimiento facial en plataformas de redes sociales como Facebook. Esta tecnología permite a los usuarios etiquetar automáticamente a amigos en fotos, mejorando la experiencia del usuario. Sin embargo, también ha suscitado preocupaciones éticas significativas, incluyendo la privacidad, el consentimiento y los sesgos raciales y de género.
+
+\subsection{Comparación de Componentes Técnicos y Éticos}
+Tanto "Coded Bias" como el caso real de reconocimiento facial en redes sociales destacan problemas similares en cuanto a la precisión y la equidad de los algoritmos. En ambos casos, la falta de diversidad en los datos de entrenamiento y la ausencia de mecanismos robustos para mitigar los sesgos resultan en discriminación y resultados injustos. Técnicamente, la mejora de estos algoritmos requiere enfoques más inclusivos y transparentes, así como una supervisión ética rigurosa.
+
+\section{Análisis Ético}
+Las implicaciones éticas de la IA en UI/UX son profundas. Los sesgos en los algoritmos pueden reforzar las desigualdades sociales y marginar a grupos vulnerables. En el diseño de UI/UX, es crucial considerar estos factores para crear tecnologías que sean justas y equitativas. Las soluciones incluyen la adopción de prácticas de diseño inclusivo, auditorías regulares de los algoritmos y la participación de diversos grupos en el proceso de desarrollo.
+
+\section{Conclusión}
+Los diseñadores de UI/UX enfrentan el desafío de equilibrar la innovación tecnológica con la responsabilidad ética. Al abordar los sesgos en la IA y garantizar una representación justa en los datos de entrenamiento, los diseñadores pueden crear interfaces que no solo sean eficientes, sino también justas y equitativas. La película "Coded Bias" y el caso real de reconocimiento facial en redes sociales sirven como recordatorios poderosos de la importancia de este enfoque.
+
+\section*{Referencias}
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+@misc{codedbias,
+  title={Coded Bias},
+  director={Shalini Kantayya},
+  year={2020},
+  note={Film}
+}
+
+\end{document}
